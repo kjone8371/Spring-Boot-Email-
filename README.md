@@ -1,14 +1,14 @@
-# Spring Boot Email 인증
-스프링 부트로 Email 인증 키 발급받는 서비스 구현
+# Spring Boot Email Service
+스프링 
 
+# Setting up the Backend Server(Server-Option)
 
-
-# Build.Gradle
++ Build.Gradle
 ```build
     implementation 'org.springframework.boot:spring-boot-starter-mail'
 ```
 
-# application.properties
++ application.properties
 ```properties
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
