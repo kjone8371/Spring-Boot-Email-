@@ -1,4 +1,5 @@
 # Spring Boot React Email Service
+![Spring_Login](https://github.com/kjone8371/Spring-Boot-Email-/assets/103641429/6f6fe662-c102-4e31-8c9e-3105791494e1)
 
 
 # Setting up the Backend Server(Server-Option)
@@ -19,4 +20,6 @@ spring.mail.properties.mail.smtp.timeout=50000
 spring.mail.properties.mail.smtp.connectiontimeout=50000
 spring.mail.properties.mail.smtp.starttls.enable=true
 ```
+# 
+
 
