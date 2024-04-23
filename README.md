@@ -1,5 +1,5 @@
-# Spring Boot Email Service
-스프링 
+# Spring Boot React Email Service
+
 
 # Setting up the Backend Server(Server-Option)
 
