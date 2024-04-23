@@ -1,4 +1,4 @@
-# Spring Boot React Email Service
+# Spring Boot React Login Service
 ![Spring_Login](https://github.com/kjone8371/Spring-Boot-Email-/assets/103641429/6f6fe662-c102-4e31-8c9e-3105791494e1)
 
 
