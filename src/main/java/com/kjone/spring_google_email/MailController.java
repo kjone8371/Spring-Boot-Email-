@@ -14,6 +14,13 @@ public class MailController {
         return "Main";
     }
 
+    @PostMapping("/emailConfirm")
+    public String mailConfirm(@RequestBody User user){
+        int num = mailService.sendEmail(user.getId());
+
+        return "코드 발급" + num;
+    }
+
     @ResponseBody
     @PostMapping("/mail")
     public String MailSend(String mail){
