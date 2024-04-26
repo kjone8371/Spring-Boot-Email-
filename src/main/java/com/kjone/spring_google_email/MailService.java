@@ -28,10 +28,10 @@ public class MailService {
         try {
             message.setFrom(senderEmail);   // 보내는 이메일
             message.setRecipients(MimeMessage.RecipientType.TO, mail); // 보낼 이메일 설정
-            message.setSubject("[WalkingMate] 회원가입을 위한 이메일 인증");  // 제목 설정
+            message.setSubject("[ExporCar] 회원가입을 위한 이메일 인증");  // 제목 설정
             String body = "";
             body += "<h1>" + "안녕하세요." + "</h1>";
-            body += "<h1>" + "Walking Mate 입니다." + "</h1>";
+            body += "<h1>" + "ExporCar 입니다." + "</h1>";
             body += "<h3>" + "회원가입을 위한 요청하신 인증 번호입니다." + "</h3><br>";
             body += "<h2>" + "아래 코드를 회원가입 창으로 돌아가 입력해주세요." + "</h2>";
 
